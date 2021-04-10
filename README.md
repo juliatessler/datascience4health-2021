@@ -1,16 +1,16 @@
-# Projeto `O aumento na prevalência de perda auditiva: quais os motivos?`
-# Project `The increase in the prevalecnce of hearing loss: what are the reasons?`
+# Projeto O aumento na prevalência de perda auditiva: quais os motivos?
+# Project The increase in the prevalecnce of hearing loss: what are the reasons?
 
 # Apresentação
 
 O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação [*Ciência e Visualização de Dados em Saúde*](https://github.com/datasci4health/home), oferecida no primeiro semestre de 2021, na Unicamp.
 
-> |Nome                     | RA      | Especialização         |
-> |-------------------------|---------|------------------------|
-> | José Claudio Klier      | 123456  | Saúde                  |
-> | Júlia Ferreira Tessler  | 119655  | Computação             |
-> | Laura Chiriboga         | 207391  | Saúde - Fonoaudiologia |
-> | Yuliana Apaza           | 234986  | Computação             |
+|Nome                     | RA      | Especialização         |
+|-------------------------|---------|------------------------|
+| José Claudio Klier      | 123456  | Saúde                  |
+| Júlia Ferreira Tessler  | 119655  | Computação             |
+| Laura Chiriboga         | 207391  | Saúde - Fonoaudiologia |
+| Yuliana Apaza           | 234986  | Computação             |
 
 
 # Descrição Resumida do Projeto
