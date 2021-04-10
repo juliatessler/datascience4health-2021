@@ -75,4 +75,12 @@ A análise dos dados se baseou no processo de extração de conhecimento por mei
 
 De acordo com com o planejamento das entregas propostos pela disciplina (Plano de projeto - E1 em 13 de abril; Base de Dados de Trabalho - E2 em 11 de maio; Entrega Final (EF) em 24 de junho e Apresentações (AP) em 24, 29 de junho e 1 de julho), segue abaixo:
 
-> IMAGEM DO CRONOGRAMA
+| Momento                            | 1ª quinzena de abril | 2ª quinzena de abril | 1ª quinzena de maio | 2ª quinzena de maio | 1ª quinzena de junho | 2ª quinzena de junho |
+|------------------------------------|----------------------|----------------------|---------------------|---------------------|----------------------|----------------------|
+| **Levantamento da temática**       | *                    |                      |                     |                     |                      |                      |
+| **Revisão de literatura**          | *                    |                      |                     |                     |                      |                      |
+| **Definição das perguntas**        | *                    |                      |                     |                     |                      |                      |
+| **Escolha das bases de dados**     | *                    | *                    |                     |                     |                      |                      |
+| **Extração e análise dos dados**   |                      | *                    | *                   | *                   |                      |                      |
+| **Elaboração do trabalho final**   |                      |                      |                     |                     | *                    |                      |
+| **Apresentação do trabalho final** |                      |                      |                     |                     |                      | *                    |
