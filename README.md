@@ -1,5 +1,5 @@
 # Projeto O aumento na prevalência de perda auditiva: quais os motivos?
-# Project The increase in the prevalecnce of hearing loss: what are the reasons?
+# Project The increase in the prevalence of hearing loss: what are the reasons?
 
 # Apresentação
 
