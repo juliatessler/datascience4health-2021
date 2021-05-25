@@ -1,5 +1,5 @@
-# Projeto O aumento na prevalência de perda auditiva: quais os motivos?
-# Project The increase in the prevalence of hearing loss: what are the reasons?
+# Projeto: Aumento da prevalência de perda auditiva e a exposição ao ruído: há relação?
+# Project: Increased prevalence of hearing loss and exposure to noise: is there a relationship?
 
 # Apresentação
 
@@ -15,17 +15,16 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 # Descrição Resumida do Projeto
 
-De acordo com projeções realizadas pela Organização Mundial da Saúde (OMS), até 2050, uma em cada dez pessoas terão perda auditiva (PA) incapacitante (1). Portanto, sabe-se que a PA é e será um tema cada vez mais discutido e presente no cenário mundial, pois independentemente da idade, provoca consequências negativas na comunicação, no estado emocional, na educação e na qualidade de vida (2). Além disso, é estimado que US $ 1 trilhão é perdido a cada ano devido à nossa falha coletiva em abordar adequadamente este problema, se tornando um encargo financeiro enorme (3).
+De acordo com projeções realizadas pela Organização Mundial da Saúde (OMS), até 2050, uma em cada dez pessoas terão perda auditiva (PA) incapacitante (1). Portanto, sabe-se que a PA é e será um tema cada vez mais discutido e presente no cenário mundial, pois independentemente da idade, provoca consequências negativas na comunicação, no estado emocional, na educação e na qualidade de vida (2). Além disso, é estimado que US $ 1 trilhão é perdido a cada ano devido à nossa falha coletiva em abordar adequadamente este problema, se tornando um encargo financeiro enorme(3).
 
 Observou-se uma grande movimentação de entidades importantes de saúde para alertar a respeito da perda auditiva e seus impactos. No contexto em que a perda auditiva muitas vezes ainda é referida como uma "deficiência invisível", não apenas por causa da falta de sintomas visíveis, mas porque há muito tempo é estigmatizado nas comunidades e ignorado pelos formuladores de políticas.
 
 Em 3 de março de 2021 tivemos a publicação do primeiro Relatório Mundial da Audição (3), em que foram elencados diversos fatores sobre a perda auditiva, como:  a importância da audição durante a vida, soluções possíveis em casos de perdas auditivas, desafios encarados frente aos cuidados da orelha e da audição e um possível caminho futuro para a saúde pública auditiva. 
-
+Muitas causas de perda auditiva podem ser evitadas. Doenças de ouvido comuns, infecções de ouvido, doenças evitáveis ​​por vacinas e exposição a ruído e produtos químicos colocam em perigo o ouvir falar de muitas pessoas em diferentes idades. A Organização Mundial da Saúde (OMS) estima, por exemplo, que mais de 1 bilhão de jovens se colocam em risco de perda permanente de audição, muitas vezes sem saber, ao ouvir música em alto volume intensidade durante longos períodos de tempo. Mitigar esses riscos por meio de ações de saúde pública é essencial para tratar a perda auditiva.
 O relatório mostra que medidas de saúde pública baseadas em evidências e econômicas podem prevenir muitas causas de perda auditiva. Segundo os autores, “Prevenir e tratar doenças e deficiências de todos os tipos não é um custo, mas um investimento em um mundo mais seguro, justo e próspero para todas as pessoas”. 
 
-Mas, mesmo com os esforços já existentes, vimos que a prevalência de perda auditiva está aumentando a cada ano. 
-
-Visto isso, decidiu-se por tentar entender os motivos desta situação mundial. 
+Desta forma, o intuito desta pesquisa é entender como funciona a prevalência da perda auditiva e suas relações com a exposição ao ruído não laboral.
+ 
 
 [Aqui](https://youtu.be/Usq-nvxmtDM) encontra-se o vídeo de apresentação do projeto.
 
@@ -33,34 +32,9 @@ Visto isso, decidiu-se por tentar entender os motivos desta situação mundial.
 
 # Perguntas de Pesquisa
 
-Para a elaboração das perguntas de pesquisa, primeiramente analisamos um panorama geral das informações disponíveis a respeito do tema escolhido: perda auditiva. 
+**PERGUNTA NORTEADORA: Qual a relação da perda auditiva com a exposição ao ruído não laboral?** 
 
-Após isso, elaboramos nossos questionamentos baseados no anagrama PICOT, de acordo com os componentes: população (especificar qual/quem é a amostra que estamos usando - especificar os critérios); intervenção ( o que quero saber se funciona/o que estou analisando); comparador (comparar com algo); desfecho (outcome) e tipo de estudo (delineamento que pretendemos utilizar para fazer a pesquisa).
-
-P: indivíduos com perda auditiva
-
-I: medidas de prevenção a perda auditiva e medidas de agravamento as perdas auditivas (comorbidades)
-
-C: indivíduos sem perda auditiva
-
-O: perda auditiva
-
-T: estudo observacional descritivo
-
-**PERGUNTA:  Quais os motivos da prevalência da perda auditiva estar aumentando, visto que existem esforços de promoção e prevenção de saúde?**
-
-A prevalência da perda auditiva está aumentando, porque as medidas de promoção e prevenção em saúde não estão sendo eficientes? Quais os impactos da vida atual nesta prevalência? Será que as medidas de prevenção em saúde não estão sendo eficientes, ou na verdade é uma menor parte da população que está tendo acesso? Será que está aumentando por conta dos hábitos de vida atuais (aumento da expectativa de vida, aumento do sedentarismo e doenças cardiovasculares, uso de dispositivos eletrônicos de áudio e poluição sonora)?
-
-
-# Bases de Dados
-
-Encontrou-se bancos de dados disponíveis a respeito de saúde que incluem informações relacionadas à perda auditiva, dentre outras, o que permite estudos e modelagem de fatores a fim de responder às perguntas levantadas. São eles:
-
-| Fontes de dados | Resumo descritivo |
-|-----------------|-------------------|
-| [National Health and Nutrition Examination Survey (NHANES)](https://wwwn.cdc.gov/nchs/nhanes/Default.aspx) | NHANES avalia a saúde e o estado nutricional de adultos e crianças nos Estados Unidos. NHANES inclui questões demográficas, socioeconômicas, dietéticas e relacionadas à saúde.Possui exames de audiometria dos indivíduos, além de dados de pressão arterial, dados dietéticos, dados laboratoriais, etc. (6, 7) |
-| [Base de Dados dos Direitos da Pessoa com Deficiência](http://basededados.sedpcd.sp.gov.br/index.php) | Dados censitários e informações sobre a pessoa com deficiência nas áreas de educação, saúde, emprego e renda desenvolvimento entre outras. |
-| [Global Burden of Disease Study 2017 / 2019](http://ghdx.healthdata.org/gbd-2019) | *Framework* para integrar, validar, analisar e disseminar informações para avaliar a importância comparativa das doenças, lesões e fatores de risco em causar morte prematura, perda de saúde e incapacidade em diferentes populações. |
+Além desta pergunta, levantou-se outras derivadas da inicial: a prevalência da perda auditiva está aumentando e, junto a isso, a poluição sonora e o tempo de uso de fones de ouvido também. Desta forma, existe alguma associação entre elas? Como se dão? Há uma população mais afetada pelo ruído não laboral? 
 
 # Metodologia
 
@@ -68,11 +42,47 @@ Este estudo é definido como estudo observacional descritivo.
 
 A seleção do tema se deu por meio da discussão do grupo perante as áreas de atuação dos profissionais da saúde que o compunham. Dentro os temas levantados, a saúde auditiva e mais propriamente a perda auditiva foi o escolhido.
 
-Baseados nesta temática, o grupo levantou perguntas de interesse que poderiam ser respondidas por meio da ciência dos dados. Desta forma, o grupo se direcionou para buscar bases de dados condizentes para a pesquisa. As bases de dados estão referenciadas na seção anterior. 
+Baseados nesta temática, o grupo levantou uma pergunta norteadora baseada no anagrama PICOT, descrita a seguir: Qual a relação da perda auditiva com a exposição ao ruído não laboral? Como citado acima, também levantou-se perguntas derivadas de interesse, com a intenção de serem respondidas por meio da ciência dos dados. Desta forma, o grupo se direcionou para buscar bases de dados condizentes para a pesquisa. As bases de dados estão referenciadas na seção seguinte.
 
-A análise dos dados se baseou no processo de extração de conhecimento por meio de dados KDD - Knowledge Discovery in Databases, desenvolvida por Fayaad et. al.(1996), com intuito de visualizar insights de relações de interesse que não haviam sido previamente elencadas,  como também auxiliar na validação de conhecimento extraído. Segue abaixo o fluxograma do processo KDD (6, 7). 
+A análise dos dados se baseou no processo de extração de conhecimento por meio de dados KDD - Knowledge Discovery in Databases, desenvolvida por Fayyad et. al.(1996), com intuito de visualizar insights de relações de interesse que não haviam sido previamente elencadas,  como também auxiliar na validação de conhecimento extraído. Segue abaixo o fluxograma do processo KDD (6,7).
 
 ![KDD Process](images/kdd.png)
+
+# Bases de Dados e Evolução
+
+Em pesquisa inicial sobre o tema, encontrou-se bancos de dados disponíveis a respeito de saúde que incluem informações relacionadas à perda auditiva, dentre outras, o que permite estudos e modelagem de fatores a fim de responder às perguntas levantadas. São eles:
+
+
+| Fontes de dados | Resumo descritivo |
+|-----------------|-------------------|
+| [National Health and Nutrition Examination Survey (NHANES)](https://wwwn.cdc.gov/nchs/nhanes/Default.aspx) | NHANES avalia a saúde e o estado nutricional de adultos e crianças nos Estados Unidos. NHANES inclui questões demográficas, socioeconômicas, dietéticas e relacionadas à saúde.Possui exames de audiometria dos indivíduos, além de dados de pressão arterial, dados dietéticos, dados laboratoriais, etc. (6, 7) |
+| [Base de Dados dos Direitos da Pessoa com Deficiência](http://basededados.sedpcd.sp.gov.br/index.php) | Dados censitários e informações sobre a pessoa com deficiência nas áreas de educação, saúde, emprego e renda desenvolvimento entre outras. |
+| [Global Burden of Disease Study 2017 / 2019](http://ghdx.healthdata.org/gbd-2019) | *Framework* para integrar, validar, analisar e disseminar informações para avaliar a importância comparativa das doenças, lesões e fatores de risco em causar morte prematura, perda de saúde e incapacidade em diferentes populações. |
+
+Baseados na etapa de seleção do KDD, iniciamos uma exploração superficial nestas bases.
+
+Visto que a base do NHANES possuia inúmeras informações relevantes para o nosso trabalho, optou-se por focar somente nela e aproveitar os dados nela disponíveis. 
+
+## Base de dados estruturada e adotada
+
+Desta forma, a base estudada e adotada foi: 
+
+| **Fonte de dados** | **Endereço na web** | **Resumo descritivo** | 
+|--------------------|---------------------|------------------------|
+| National Health and Nutrition Examination Survey (NHANES) | https://wwwn.cdc.gov/nchs/nhanes/Default.aspx | NHANES avalia a saúde e o estado nutricional de adultos e crianças nos Estados Unidos. NHANES inclui questões demográficas, socioeconômicas, dietéticas e relacionadas à saúde.Possui exames de audiometria dos indivíduos, além de dados de pressão arterial, dados dietéticos, dados laboratoriais, etc. (6,7)|
+
+Dentro desta bases, foi possível visualizar dados demográficos, dados de dieta, dados de exames, dados de exames laboratoriais e dados de questionários aplicados dos períodos de 1999 a 2020.  Visto que o objetivo do trabalho era relacionar a perda auditiva com a exposição ao ruído, optou-se por selecionar 5 períodos (2005-2006; 2007-2008; 2009-2010; 2011-2012; 2015-2016), por apresentarem informações mais consistentes perante ao tema. Isso porque alguns anos não apresentavam as informações completas ou mesmo nem existiam (exemplo do ano de 2019-2020, em que ainda não existem os dados de exame de audiometria). 
+
+Antes de iniciarmos qualquer exploração dos dados, foi muito relevante lermos os guias disponibilizados pela base de dados de cada período que selecionamos, que contava com: Examination Variable List, Procedure Manuals, Examination Data Overview e SAS UniversalViewer. Nestes documentos encontramos informações a respeito da coleta dos exames e das respostas ao questionário e de que forma estes dados foram organizados e apresentados.  Segue ilustração de exemplo do manual de procedimentos da audiometria.
+
+![NHANES Audiometry Procedures Manual](images/NHANES.png)
+Fonte: https://wwwn.cdc.gov/nchs/data/nhanes/2015-2016/manuals/2016_Audiometry_Procedures_Manual.pdf
+
+As variáveis disponíveis foram avaliadas individualmente perante sua relevância técnica para o desenvolvimento das análises, e concluiu-se que seriam utilizados os dados de exame, dados de questionário e dados demográficos. Os dados de exame proveram a avaliação audiológica, os de questionário envolviam respostas referentes à exposição a ruído não laboral, e os demográficos as condições gerais da população estudada.
+
+Os dados foram apresentados nas planilhas por meio de códigos, e para possibilitar a priorização dos que nos eram importantes, utilizamos o dicionário fornecido pelo próprio NHANES e presente em sua base de dados.
+Exemplo: AUXOTSPL referia-se a Normal: Left Ear Otoscopy.
+
 
 # Ferramentas
 
