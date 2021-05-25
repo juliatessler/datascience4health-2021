@@ -83,6 +83,79 @@ As variáveis disponíveis foram avaliadas individualmente perante sua relevânc
 Os dados foram apresentados nas planilhas por meio de códigos, e para possibilitar a priorização dos que nos eram importantes, utilizamos o dicionário fornecido pelo próprio NHANES e presente em sua base de dados.
 Exemplo: AUXOTSPL referia-se a Normal: Left Ear Otoscopy.
 
+Cada tabela da NHANES vem como um arquivo XPT (SAS), sendo SEQN a chave única responsável por conectar as respostas de cada indivíduos nas diferentes tabelas. Em especial, focamos nas tabelas DEMO (dados demográficos), AUQ (dados de audiometria), AUX (dados de audiometria), AUXAR (dados de reflexo acústico de audiometrias) e AUXTYM (dados de timpanometria) de cada ano de pesquisa.
+
+# Análise exploratória
+
+Começou-se gerando uma única tabela com os dados de interesse para todos os anos.
+
+Após verificar todo o dicionário (dos subitens dados de exames e dados de questionário), foram selecionados quais seriam os códigos de variáveis referentes a dados adequados à pesquisa. Estes códigos foram organizados de tal forma a iniciar a análise exploratória destes dados.
+
+Foram observados padrões de apresentações no dicionário, visto que os códigos que se iniciavam com A se referiam a audiometria, tanto nos dados de exame como nos dados do questionário.
+
+No entanto, determinadas informações eram divergentes visto que, no decorrer dos anos, algumas perguntas foram modificadas, adicionadas ou removidas do questionário. No caso de modificações referentes a formatos, optou-se por utilizar valores em uma mesma medida (por exemplo, datas com valores em meses e anos, optou-se por se utilizar os valores em anos).
+
+A definição de alguns códigos foi reescrita de forma individual com objetivo de padronizar os parâmetros para comparação (por exemplo a alteração de “INDFMPIR: family PIR” para “INDFMPIR: Ratio of family income to poverty”, uma vez que equivalem ao mesmo código). Possibilitando assim que todos os códigos presentes em todos os anos se referissem ao mesmo parâmetro de análise.
+
+Outro aspecto relevante a ser relatado foi o exame de timpanometria (exame que faz parte da avaliação auditiva), que no último ano selecionado para análise apresentou um padrão de respostas diferente do que havia nos outros anos.
+
+De acordo com critérios audiológicos, seguimos passos para reduzirmos possíveis vieses na análise dos dados, para direcionarmos a alterações auditivas que provavelmente estariam associadas à exposição ao ruído (como por exemplo, somente selecionar indivíudos com a otoscopia considerada normal. Nota: otoscopia é o exame que analisa as condições do meato acústico interno e membrana timpânica). 
+
+| **Ano**     | **Orelha Esquerda: Otoscopia Normal** | **Percentual de Normais** |
+|-------------|---------------------------------------|---------------------------|
+| 2005 - 2006 |                                  2299 |                    82,43% |
+| 2007 - 2008 |                                   999 |                    86,95% |
+| 2009 - 2010 |                                  1729 |                    77,57% |
+| 2011 - 2012 |                                  3328 |                    85,16% |
+| 2015 - 2016 |                                  3561 |                    83,14% |
+
+
+| **Ano**     | **Orelha Direita: Otoscopia Normal** | **Percentual de Normais** |
+|-------------|--------------------------------------|---------------------------|
+| 2005 - 2006 |                                 2345 |                    84,08% |
+| 2007 - 2008 |                                 1004 |                    87,38% |
+| 2009 - 2010 |                                 1774 |                    79,59% |
+| 2011 - 2012 |                                 3372 |                    86,28% |
+| 2015 - 2016 |                                 3631 |                    84,78% |
+
+Outro aspecto importante na analise destes dados foi: alguns indivíduos foram submetidos ao reteste e outros não. Isso aconteceu por conta de um fenômeno que ocorre na audição chamado de audição cruzada. Quando percebeu-se a presença disto, ou seja, a influência de uma orelha na resposta da outra orelha, os limiares auditivos destes inidivíudos foram retestados com outro tipo de fone de ouvido para a testagem (no intuito de reduzir esta interferência). Para tanto, em nossa análise, foram utilizados os dados de teste para os indivíudos que não necessitaram de reteste e os dados de reteste para aqueles que necessitaram. Ou seja, foram também realizados filtros nos dados existentes para este direcionamento.
+
+Durante o processo de pré procesamento dos dados, foram elencados passos a serem seguidos para, em primeiro lugar, determinar, para cada sujeito, se havia ou não uma perda auditiva (e, se houvesse, qual o seu grau). Para isso foi aplicado o cálculo de classificação de grau de perda auditiva da Organização Mundial de Saúde, onde se determinam as médias entre as frequências de 500Hz, 1kHz, 2kHz e 4kHz, por orelha. O grau de perda é definido segundo o quadro abaixo, referente à classificação de grau de perda auditiva (Organização Mundial da Saúde, 2020) (1).
+
+![Grau de perda auditiva - OMS](images/oms.png)
+
+Isso é necessário para conseguirmos posteriormente fazer as relações com as respostas ao questionário sobre a exposição ao ruído e buscar identificar quais são as possíveis associações.
+
+Neste momento de análise, filtramos os dados para apenas pessoas com otoscopia normal, totalizando 11.916 indivíduos para a orelha esquerda e 12.126 para a orelha direita.
+
+Dentro de todo material de dados, não foram verificados dados faltantes. Desta forma, nesta etapa de análise, não foi preciso utilizar nenhuma estratégia futura para os missing datas.Isto porque já havia sido feita uma análise prévia e sido selecionado os períodos que possuíam os dados que nós necessitávamos.
+
+Os níveis calculados de perda auditiva foram plotados com as demais variáveis, e observou-se no decorrer dos anos um padrão de repetição na correlação negativa entre os níveis de ruído e a capacidade auditiva (ou seja, diminuição da capacidade auditiva relacionada ao aumento dos níveis de ruído). Dentro desta correlação foi possível observar a correlação entre a perda auditiva e os ruídos de origem não laboral, indicando uma possível correlação com um aumento do uso de fones de ouvido ou outras fontes de ruído no período de 2005-2016.
+
+![Orelha Esquerda Médias quadritonais](images/quad_left.png)
+
+![Orelha Direita Médias quadritonais](images/quad_right.png)
+
+As médias quadritonais para ambas as orelhas seguem distribuição muito próxima (e, de fato, ambas possuem mesma mediana, 8,75) e bastante assimétrica.
+
+![Orelha esquerda - Perda auditiva](images/class_left.png)
+
+![Orelha direita - Perda auditiva](images/class_right.png)
+
+![Orelha esquerda - Perda auditiva por ano](images/class_year_left.png)
+
+![Orelha direita - Perda auditiva por ano](images/class_year_right.png)
+
+As visualizações da classificação de perda auditiva por anos são interessantes para ver a magnitude da proporção de medidas de cada tipo, mas torna a comparação através dos anos muito difícil.
+
+![Orelha esquerda - Perda auditiva por ano](images/class_year_cum_left.png)
+
+![Orelha direita - Perda auditiva por ano](images/class_year_cum_right.png)
+
+Por outro lado, a avaliação acumulada e normalizada em percentuais (a barra de cada ano equivale a 100% dos valores daquele ano) não entrega indícios claros de que há diferença da classificação de perda em relação aos anos, o que refutaria a nossa hipotese de que houve aumento da prevalência de perda auditiva.
+
+Uma análise utilizando os dados demográficos ainda será realizada para verificar algum indicativo significativo da perda auditiva por ruído não laboral. Posteriormente uma análise referente ao uso de fones de ouvido será incluída para verificar a conexão entre as correlações aqui descobertas. Nesta etapa, uma nova base de dados deverá ser utilizada.
+
 
 # Ferramentas
 
@@ -99,7 +172,7 @@ Exemplo: AUXOTSPL referia-se a Normal: Left Ear Otoscopy.
 
 # Cronograma
 
-De acordo com com o planejamento das entregas propostos pela disciplina (Plano de projeto - E1 em 13 de abril; Base de Dados de Trabalho - E2 em 11 de maio; Entrega Final (EF) em 24 de junho e Apresentações (AP) em 24, 29 de junho e 1 de julho), segue abaixo:
+De acordo com com o planejamento das entregas propostos pela disciplina (Plano de projeto - E1 em 13 de abril; Base de Dados de Trabalho - E2 em 25 de maio; Entrega Final (EF) em 24 de junho e Apresentações (AP) em 24, 29 de junho e 1 de julho), segue abaixo:
 
 | Momento                            | 1ª quinzena de abril | 2ª quinzena de abril | 1ª quinzena de maio | 2ª quinzena de maio | 1ª quinzena de junho | 2ª quinzena de junho |
 |------------------------------------|----------------------|----------------------|---------------------|---------------------|----------------------|----------------------|
