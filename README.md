@@ -71,7 +71,7 @@ Desta forma, a base estudada e adotada foi:
 |--------------------|---------------------|------------------------|
 | National Health and Nutrition Examination Survey (NHANES) | https://wwwn.cdc.gov/nchs/nhanes/Default.aspx | NHANES avalia a saúde e o estado nutricional de adultos e crianças nos Estados Unidos. NHANES inclui questões demográficas, socioeconômicas, dietéticas e relacionadas à saúde.Possui exames de audiometria dos indivíduos, além de dados de pressão arterial, dados dietéticos, dados laboratoriais, etc. (6,7)|
 
-Dentro desta bases, foi possível visualizar dados demográficos, dados de dieta, dados de exames, dados de exames laboratoriais e dados de questionários aplicados dos períodos de 1999 a 2020.  Visto que o objetivo do trabalho era relacionar a perda auditiva com a exposição ao ruído, optou-se por selecionar 5 períodos (2005-2006; 2007-2008; 2009-2010; 2011-2012; 2015-2016), por apresentarem informações mais consistentes perante ao tema. Isso porque alguns anos não apresentavam as informações completas ou mesmo nem existiam (exemplo do ano de 2019-2020, em que ainda não existem os dados de exame de audiometria). 
+Dentro desta base, foi possível visualizar dados demográficos, dados de dieta, dados de exames, dados de exames laboratoriais e dados de questionários aplicados dos períodos de 1999 a 2020.  Visto que o objetivo do trabalho era relacionar a perda auditiva com a exposição ao ruído, optou-se por selecionar 5 períodos (2005-2006; 2007-2008; 2009-2010; 2011-2012; 2015-2016), por apresentarem informações mais consistentes perante ao tema. Isso porque alguns anos não apresentavam as informações completas ou mesmo nem existiam (exemplo do ano de 2019-2020, em que ainda não existem os dados de exame de audiometria). 
 
 Antes de iniciarmos qualquer exploração dos dados, foi muito relevante lermos os guias disponibilizados pela base de dados de cada período que selecionamos, que contava com: Examination Variable List, Procedure Manuals, Examination Data Overview e SAS UniversalViewer. Nestes documentos encontramos informações a respeito da coleta dos exames e das respostas ao questionário e de que forma estes dados foram organizados e apresentados.  Segue ilustração de exemplo do manual de procedimentos da audiometria.
 
@@ -98,6 +98,10 @@ No entanto, determinadas informações eram divergentes visto que, no decorrer d
 A definição de alguns códigos foi reescrita de forma individual com objetivo de padronizar os parâmetros para comparação (por exemplo a alteração de “INDFMPIR: family PIR” para “INDFMPIR: Ratio of family income to poverty”, uma vez que equivalem ao mesmo código). Possibilitando assim que todos os códigos presentes em todos os anos se referissem ao mesmo parâmetro de análise.
 
 Outro aspecto relevante a ser relatado foi o exame de timpanometria (exame que faz parte da avaliação auditiva), que no último ano selecionado para análise apresentou um padrão de respostas diferente do que havia nos outros anos.
+
+![Heatmap Correlação](images/heatmap_corr.png)
+
+O mapa de calor de correlação traz referências visuais para variáveis com maior correlação linear (de Pearson). Aqui, nota-se altos valores de correlação para as medidas de de teste de audiometria. Há também uma correlação espúria para quantidade de meses em trabalhos com longa exposição a ruídos e o reteste da audiometria na orelha direita para 1000Hz, por exemplo.
 
 De acordo com critérios audiológicos, seguimos passos para reduzirmos possíveis vieses na análise dos dados, para direcionarmos a alterações auditivas que provavelmente estariam associadas à exposição ao ruído (como por exemplo, somente selecionar indivíudos com a otoscopia considerada normal. Nota: otoscopia é o exame que analisa as condições do meato acústico interno e membrana timpânica). 
 
@@ -130,8 +134,6 @@ Neste momento de análise, filtramos os dados para apenas pessoas com otoscopia 
 
 Dentro de todo material de dados, não foram verificados dados faltantes. Desta forma, nesta etapa de análise, não foi preciso utilizar nenhuma estratégia futura para os missing datas.Isto porque já havia sido feita uma análise prévia e sido selecionado os períodos que possuíam os dados que nós necessitávamos.
 
-Os níveis calculados de perda auditiva foram plotados com as demais variáveis, e observou-se no decorrer dos anos um padrão de repetição na correlação negativa entre os níveis de ruído e a capacidade auditiva (ou seja, diminuição da capacidade auditiva relacionada ao aumento dos níveis de ruído). Dentro desta correlação foi possível observar a correlação entre a perda auditiva e os ruídos de origem não laboral, indicando uma possível correlação com um aumento do uso de fones de ouvido ou outras fontes de ruído no período de 2005-2016.
-
 ![Orelha Esquerda Médias quadritonais](images/quad_left.png)
 
 ![Orelha Direita Médias quadritonais](images/quad_right.png)
@@ -154,7 +156,7 @@ As visualizações da classificação de perda auditiva por anos são interessan
 
 Por outro lado, a avaliação acumulada e normalizada em percentuais (a barra de cada ano equivale a 100% dos valores daquele ano) não entrega indícios claros de que há diferença da classificação de perda em relação aos anos, o que refutaria a nossa hipotese de que houve aumento da prevalência de perda auditiva.
 
-Uma análise utilizando os dados demográficos ainda será realizada para verificar algum indicativo significativo da perda auditiva por ruído não laboral. Posteriormente uma análise referente ao uso de fones de ouvido será incluída para verificar a conexão entre as correlações aqui descobertas. Nesta etapa, uma nova base de dados deverá ser utilizada.
+Uma análise utilizando os dados demográficos ainda será realizada para verificar algum indicativo significativo da perda auditiva relacionada a variáveis demográficas, como sexo e idade. Será também realizada uma análise referente a resposta ao questionário no quesito exposição a ruído não laboral, no intuito de responder a pergunta de pesquisa. Pretende-se, também, realizar uma análise referente ao uso de fones de ouvido para verificar a conexão entre as correlações aqui descobertas. Nesta etapa,  uma nova base de dados que ainda estamos buscando poderá ser utilizada.
 
 
 # Ferramentas
