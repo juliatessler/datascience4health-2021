@@ -187,10 +187,9 @@ Por outro lado, a avaliação acumulada e normalizada em percentuais (a barra de
 
 ## Análises realizadas - Integração entre dados de audiometria, questionário e demográficos
 
-**A integração foi feita entre os dados de exame de audiometria, dados de questionário e dados demográficos. Os níveis calculados de perda auditiva foram plotados com as demais variáveis, e observou-se no decorrer dos anos um padrão de repetição na correlação negativa entre os níveis de ruído e a capacidade auditiva (ou seja, diminuição da capacidade auditiva relacionada ao aumento dos níveis de ruído). Dentro desta correlação foi possível observar a correlação entre a perda auditiva e os ruídos de origem não laboral, indicando uma possível relação positiva com um aumento do uso de fones de ouvido ou outras fontes de ruído no período de 2005-2016.
+A integração foi feita entre os dados de exame de audiometria, dados de questionário e dados demográficos. Os níveis calculados de perda auditiva foram plotados com as demais variáveis, e não foi possível observar no decorrer dos anos um padrão de repetição na correlação negativa entre os níveis de ruído e a capacidade auditiva (ou seja, diminuição da capacidade auditiva relacionada ao aumento dos níveis de ruído). Tais resultados levam a acreditar que não houve aumento de perda auditiva neste período, entretanto vale ressaltar que os níveis amostrais se encontravam desiguais, dificultando a conclusão.
 
-Como acima citado, levantou-se também os dados demográficos, na tentativa de explorá-los fazendo uma relação com a perda auditiva. Então, com os dados de audiometria que já haviam sido tratados, fizemos análises com dados demográficos como sexo, idade e escolaridade.**
-PRECISAMOS TRABALHAR NESSES DOIS PARÁGRAFOS INICIAIS. ESTÃO RUINS E ESTOU SEM IDÉIAS
+Posteriormente uma análise considerando a relação entre os dados demográficos e a perda auditiva foi realizada, utilizando os exames já classificados em grau de perda auditiva.
 
 ### Modelagem
 
