@@ -249,7 +249,7 @@ Vislumbrando ter alguma luz sobre a pergunta principal do estudo, a qual relacio
 
 ![Orelha esquerda - Correlação entre as variáveis utilizadas](images/left_variable_corr.png)
 
-Observamos que referente a questão “Ears ringing, roaring, buzzing past year”,  a maioria das pessoas que têm audição normal respondeu que não teve zumbido e a % de pessoas que têm perda e falaram que tem zumbido é maior do que as pessoas que têm perda e falaram que não. 
+Observamos que referente a questão “Ears ringing, roaring, buzzing past year”,  a maioria das pessoas que têm audição normal respondeu que não teve zumbido e a % de pessoas que têm perda e falaram que tem zumbido é maior do que as pessoas que têm perda e falaram que não.  Para todas as imagens abaixo, 1 equivale à resposta sim e 2, não.
 
 ![Orelha direita - Zumbido](images/right_ringing.png)
 
@@ -296,6 +296,9 @@ Ao fazer um panorama geral do trabalho, as principais dificuldades observadas fo
 
 É importante ressaltar que a todo momento foi necessário revisitar os dados, revisitar o dicionário da base de dados para que conseguíssimos elaborar ideias e soluções. O pipeline do KDD se tornou, muitas vezes, um ciclo, em que pre- processávamos os dados, tentávmos analisar, retornávamos para o pre processamento e assim sucessivamente. 
 
+# Conclusão
+
+A parte de dados demográficos, não é possível predizer se há ou não perda auditiva. No entando, por meio da relação das questões relacionada à exposição à ruído não laboral, há evidências - ainda que não fortes - de que há relação causal entre as duas variáveis: ou seja, maior exposição ao ruído não laboral leva à perda auditiva. É importante ressaltar que a perda auditiva tem inúmeras etiologias e até somatória de fatores, de forma que não foi possível fazer uma análise específica e controlando todas as variáveis para garantir que estão estão relacionadas ao ruído.
 
 # Trabalhos futuros
 
