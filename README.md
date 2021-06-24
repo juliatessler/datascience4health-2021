@@ -15,7 +15,13 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 # Descrição Resumida do Projeto
 
- ipsum lorem
+Diante do relatório mundial da audição publicado em março de 2021, observou-se que há uma projeção para que em 2050, 2,5 bilhões de pessoas irão conviver com algum grau de perda auditiva e a prevalência da deficiência auditiva aumenta a cada ano. Sabe-se que, mesmo um grau leve de perda da audição, traz consequências negativas para a vida do indivíduo, tais quais dificuldades de interação social,  perda de oportunidades, isolamento, depressão e aumenta em até 8% a chance de desenvolver demência. Esses impactos negativos podem ser evitadas e/ou minimizados quando há uma compreensão do cenário geral e entendimento de políticas que podem ser realizadas tantos em termos de prevenção e promoção de saúde como em processos de reabilitação da audição. 
+
+Desta forma, um serviço de saúde auditiva centrada no indivíduo através de um sistema de saúde fortalecido sistema pode superar os desafios enfrentados. E, uma das propostas presentes é o direcionamento das políticas para a redução do ruído, ou seja, de toda poluição sonora que vivemos hoje. 
+
+Portanto, o intuito desta pesquisa foi encontrar as reais relações presentes entre a perda auditiva (e o aumento da sua prevalência a cada ano) com o ruído, visto que este também está aumentando a cada ano.  Avaliou-se dados demográficos e de audiometria da NHANES de anos sequenciais e ajustamos modelos de classificação com o objetivo de encontrar formas de predizer a perda auditiva baseado nas informações demográficas e de questionários fornecidas. Os modelos treinados não apresentaram resultados bons por conta do desbalanço entre as classes dos dados, mas a análise exploratória foi capaz de encontrar relações que corroboram a hipótese de que há maior prevalência de perda auditiva para as pessoas que são mais expostas ao ruído não laboral.
+
+No entanto, sabe-se que a etiologia da perda auditiva pode apresentar diversos fatores e não é possível, com os dados que temos, isolar todas as variáveis. Deste modo, há uma relação entre os indivíduos que tem perda com a exposição a ruído, mas não se pode afirmar que a causa da perda auditiva foi exclusivamente este ruído.
 
 # Vídeos do Projeto
 
@@ -30,6 +36,12 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 [Aqui](https://youtu.be/Usq-nvxmtDM) encontra-se o vídeo de apresentação final do projeto.
 
 [![O Aumento na Prevalência de Perda Auditiva: Quais os Motivos?](images/slide_title.jpg)](https://youtu.be/Usq-nvxmtDM)
+
+# Slides do Projeto
+
+## Slides da Proposta
+
+## Slides da Apresentação Final
 
 # Introdução e Referenciais Teóricos
 
@@ -47,7 +59,7 @@ Desta forma, o intuito desta pesquisa é entender como funciona a prevalência d
 
 **PERGUNTA NORTEADORA: Qual a relação da perda auditiva com a exposição ao ruído não laboral?** 
 
-Além desta pergunta, levantou-se outras derivadas da inicial: a prevalência da perda auditiva está aumentando e, junto a isso, a poluição sonora e o tempo de uso de fones de ouvido também. Desta forma, existe alguma associação entre elas? Como se dão? Há uma população mais afetada pelo ruído não laboral? 
+Além desta pergunta, levantou-se outras derivadas da inicial: é possível prever a perda auditiva de acordo com dados demográficos obtidos? a prevalência da perda auditiva está aumentando e, junto a isso, a poluição sonora e o tempo de uso de fones de ouvido também. Desta forma, existe alguma associação entre elas? Como se dão? Há uma população mais afetada pelo ruído não laboral?
 
 # Metodologia
 
@@ -100,7 +112,7 @@ Cada tabela da NHANES vem como um arquivo XPT (SAS), sendo SEQN a chave única r
 
 # Análise exploratória
 
-Começou-se gerando uma única tabela com os dados de interesse para todos os anos.
+Visto que o grupo escolheu usarmos somente uma base de dados para o estudo, já que a NHANES apresenta inúmeros dados pertinentes ao tema escolhido, iniciou-se gerando uma única tabela com os dados de interesse para cada ano escolhido, resultando posteriormente em um material com os dados de todos os anos que iriamos estudar.
 
 Após verificar todo o dicionário (dos subitens dados de exames e dados de questionário), foram selecionados quais seriam os códigos de variáveis referentes a dados adequados à pesquisa. Estes códigos foram organizados de tal forma a iniciar a análise exploratória destes dados.
 
@@ -141,7 +153,7 @@ Durante o processo de pré procesamento dos dados, foram elencados passos a sere
 
 ![Grau de perda auditiva - OMS](images/oms.png)
 
-Isso é necessário para conseguirmos posteriormente fazer as relações com as respostas ao questionário sobre a exposição ao ruído e buscar identificar quais são as possíveis associações.
+Isso é necessário para conseguirmos posteriormente fazer as relações com os dados demográficos e com as respostas ao questionário sobre a exposição ao ruído e buscar identificar quais são as possíveis associações.
 
 Neste momento de análise, filtramos os dados para apenas pessoas com otoscopia normal, totalizando 11.916 indivíduos para a orelha esquerda e 12.126 para a orelha direita.
 
@@ -169,7 +181,7 @@ As visualizações da classificação de perda auditiva por anos são interessan
 
 Por outro lado, a avaliação acumulada e normalizada em percentuais (a barra de cada ano equivale a 100% dos valores daquele ano) não entrega indícios claros de que há diferença da classificação de perda em relação aos anos, o que refutaria a nossa hipotese de que houve aumento da prevalência de perda auditiva.
 
-## Integração entre dados de audiometria, questionário e demográficos
+## Análises realizadas - Integração entre dados de audiometria, questionário e demográficos
 
 **A integração foi feita entre os dados de exame de audiometria, dados de questionário e dados demográficos. Os níveis calculados de perda auditiva foram plotados com as demais variáveis, e observou-se no decorrer dos anos um padrão de repetição na correlação negativa entre os níveis de ruído e a capacidade auditiva (ou seja, diminuição da capacidade auditiva relacionada ao aumento dos níveis de ruído). Dentro desta correlação foi possível observar a correlação entre a perda auditiva e os ruídos de origem não laboral, indicando uma possível relação positiva com um aumento do uso de fones de ouvido ou outras fontes de ruído no período de 2005-2016.
 
