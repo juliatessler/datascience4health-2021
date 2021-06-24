@@ -15,6 +15,24 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 # Descrição Resumida do Projeto
 
+ ipsum lorem
+
+# Vídeos do Projeto
+
+## Vídeo da Proposta
+
+[Aqui](https://youtu.be/Usq-nvxmtDM) encontra-se o vídeo de apresentação da proposta do projeto.
+
+[![O Aumento na Prevalência de Perda Auditiva: Quais os Motivos?](images/slide_title.jpg)](https://youtu.be/Usq-nvxmtDM)
+
+## Vídeo da Apresentação Final
+
+[Aqui](https://youtu.be/Usq-nvxmtDM) encontra-se o vídeo de apresentação final do projeto.
+
+[![O Aumento na Prevalência de Perda Auditiva: Quais os Motivos?](images/slide_title.jpg)](https://youtu.be/Usq-nvxmtDM)
+
+# Introdução e Referenciais Teóricos
+
 De acordo com projeções realizadas pela Organização Mundial da Saúde (OMS), até 2050, uma em cada dez pessoas terão perda auditiva (PA) incapacitante (1). Portanto, sabe-se que a PA é e será um tema cada vez mais discutido e presente no cenário mundial, pois independentemente da idade, provoca consequências negativas na comunicação, no estado emocional, na educação e na qualidade de vida (2). Além disso, é estimado que US $ 1 trilhão é perdido a cada ano devido à nossa falha coletiva em abordar adequadamente este problema, se tornando um encargo financeiro enorme(3).
 
 Observou-se uma grande movimentação de entidades importantes de saúde para alertar a respeito da perda auditiva e seus impactos. No contexto em que a perda auditiva muitas vezes ainda é referida como uma "deficiência invisível", não apenas por causa da falta de sintomas visíveis, mas porque há muito tempo é estigmatizado nas comunidades e ignorado pelos formuladores de políticas.
@@ -23,12 +41,7 @@ Em 3 de março de 2021 tivemos a publicação do primeiro Relatório Mundial da 
 Muitas causas de perda auditiva podem ser evitadas. Doenças de ouvido comuns, infecções de ouvido, doenças evitáveis ​​por vacinas e exposição a ruído e produtos químicos colocam em perigo o ouvir falar de muitas pessoas em diferentes idades. A Organização Mundial da Saúde (OMS) estima, por exemplo, que mais de 1 bilhão de jovens se colocam em risco de perda permanente de audição, muitas vezes sem saber, ao ouvir música em alto volume intensidade durante longos períodos de tempo. Mitigar esses riscos por meio de ações de saúde pública é essencial para tratar a perda auditiva.
 O relatório mostra que medidas de saúde pública baseadas em evidências e econômicas podem prevenir muitas causas de perda auditiva. Segundo os autores, “Prevenir e tratar doenças e deficiências de todos os tipos não é um custo, mas um investimento em um mundo mais seguro, justo e próspero para todas as pessoas”. 
 
-Desta forma, o intuito desta pesquisa é entender como funciona a prevalência da perda auditiva e suas relações com a exposição ao ruído não laboral.
- 
-
-[Aqui](https://youtu.be/Usq-nvxmtDM) encontra-se o vídeo de apresentação do projeto.
-
-[![O Aumento na Prevalência de Perda Auditiva: Quais os Motivos?](images/slide_title.jpg)](https://youtu.be/Usq-nvxmtDM)
+Desta forma, o intuito desta pesquisa é entender como funciona a prevalência da perda auditiva e suas relações com a exposição ao ruído não laboral. Avaliou-se dados demográficos e de audiometria da [NHANES](https://wwwn.cdc.gov/nchs/nhanes/Default.aspx) de múltiplos anos e ajustamos modelos de classificação com o objetivo de encontrar formas de prever o nível de perda auditiva baseado nas informações demográficas fornecidas. Os modelos treinados não apresentaram resultados bons por conta do desbalanço entre as classes dos dados, mas a análise exploratória foi capaz de encontrar relações que corroboram a hipótese de que há maior prevalência de perda auditiva para as pessoas que são expostas ao ruído não laboral.
 
 # Perguntas de Pesquisa
 
@@ -69,7 +82,7 @@ Desta forma, a base estudada e adotada foi:
 
 | **Fonte de dados** | **Endereço na web** | **Resumo descritivo** | 
 |--------------------|---------------------|------------------------|
-| National Health and Nutrition Examination Survey (NHANES) | https://wwwn.cdc.gov/nchs/nhanes/Default.aspx | NHANES avalia a saúde e o estado nutricional de adultos e crianças nos Estados Unidos. NHANES inclui questões demográficas, socioeconômicas, dietéticas e relacionadas à saúde.Possui exames de audiometria dos indivíduos, além de dados de pressão arterial, dados dietéticos, dados laboratoriais, etc. (6,7)|
+| National Health and Nutrition Examination Survey (NHANES) | https://wwwn.cdc.gov/nchs/nhanes/Default.aspx | NHANES avalia a saúde e o estado nutricional de adultos e crianças nos Estados Unidos. NHANES inclui questões demográficas, socioeconômicas, dietéticas e relacionadas à saúde. Possui exames de audiometria dos indivíduos, além de dados de pressão arterial, dados dietéticos, dados laboratoriais, etc. (6,7)|
 
 Dentro desta base, foi possível visualizar dados demográficos, dados de dieta, dados de exames, dados de exames laboratoriais e dados de questionários aplicados dos períodos de 1999 a 2020.  Visto que o objetivo do trabalho era relacionar a perda auditiva com a exposição ao ruído, optou-se por selecionar 5 períodos (2005-2006; 2007-2008; 2009-2010; 2011-2012; 2015-2016), por apresentarem informações mais consistentes perante ao tema. Isso porque alguns anos não apresentavam as informações completas ou mesmo nem existiam (exemplo do ano de 2019-2020, em que ainda não existem os dados de exame de audiometria). 
 
@@ -156,8 +169,123 @@ As visualizações da classificação de perda auditiva por anos são interessan
 
 Por outro lado, a avaliação acumulada e normalizada em percentuais (a barra de cada ano equivale a 100% dos valores daquele ano) não entrega indícios claros de que há diferença da classificação de perda em relação aos anos, o que refutaria a nossa hipotese de que houve aumento da prevalência de perda auditiva.
 
-Uma análise utilizando os dados demográficos ainda será realizada para verificar algum indicativo significativo da perda auditiva relacionada a variáveis demográficas, como sexo e idade. Será também realizada uma análise referente a resposta ao questionário no quesito exposição a ruído não laboral, no intuito de responder a pergunta de pesquisa. Pretende-se, também, realizar uma análise referente ao uso de fones de ouvido para verificar a conexão entre as correlações aqui descobertas. Nesta etapa,  uma nova base de dados que ainda estamos buscando poderá ser utilizada.
+## Integração entre dados de audiometria, questionário e demográficos
 
+**A integração foi feita entre os dados de exame de audiometria, dados de questionário e dados demográficos. Os níveis calculados de perda auditiva foram plotados com as demais variáveis, e observou-se no decorrer dos anos um padrão de repetição na correlação negativa entre os níveis de ruído e a capacidade auditiva (ou seja, diminuição da capacidade auditiva relacionada ao aumento dos níveis de ruído). Dentro desta correlação foi possível observar a correlação entre a perda auditiva e os ruídos de origem não laboral, indicando uma possível relação positiva com um aumento do uso de fones de ouvido ou outras fontes de ruído no período de 2005-2016.
+
+Como acima citado, levantou-se também os dados demográficos, na tentativa de explorá-los fazendo uma relação com a perda auditiva. Então, com os dados de audiometria que já haviam sido tratados, fizemos análises com dados demográficos como sexo, idade e escolaridade.**
+PRECISAMOS TRABALHAR NESSES DOIS PARÁGRAFOS INICIAIS. ESTÃO RUINS E ESTOU SEM IDÉIAS
+
+### Modelagem
+
+Treinamos modelos de classificação supervisionados em uma tentativa de entender se é possível prever os resultados do exame de audiometria através de outros dados. A primeira dificuldade nessa etapa foi a natureza esparsa dos dados, o que gerou muitos dados faltantes que são empecilhos para estes modelos. Optou-se por eliminar as colunas com maior quantidade de dados faltantes e, das que restaram, eliminamos as linhas com dados faltantes. Por fim, ficamos com as seguintes colunas:
+
+* Have you been exposed to loud noise or listened to music with headphones in the past 24 hours? (Você foi exposto a sons altos ou escutou música com fones de ouvido nas últimas 24h?)
+* Ears ringing, roaring, buzzing past year (Zunido nos ouvidos no último ano)                                
+* Gender (Gênero)                                   
+* Age in years at screening  (idade em anos na checagem)                                             
+* Race/Hispanic origin  (Raça/origem hispânica)                                                                   
+* Total number of people in the Household (Número total de pessoas na casa)                                   
+* Total number of people in the Family (Número total de pessoas na família)                                         
+* Annual family income (Renda familiar anual)                                                                  
+* Ratio of family income to poverty (Razão da renda familiar para pobreza)                                              
+* Country of birth  (País de nascimento)                                                                           
+* Annual household income (Renda domiciliar anual)
+
+Para cada orelha, obtivemos a seguinte quantidade de observações de cada classe de perda auditiva:
+
+| Orelha       | Classe                  | Quantidade |
+|--------------|-------------------------|-----------:|
+| **Esquerda** | Normal                  | 6997       |
+|              | Leve                    | 1209       |
+|              | Moderada                | 394        |
+|              | Moderadamente severa    | 138        |
+|              | Severa                  | 54         |
+|              | Perda auditiva completa | 41         |
+|              | Profunda                | 22         |
+| **Direita**  | Normal                  | 6982       |
+|              | Leve                    | 1164       |
+|              | Moderada                | 366        |
+|              | Moderadamente severa    | 126        |
+|              | Perda auditiva completa | 41         |
+|              | Severa                  | 35         |
+|              | Profunda                | 14         |
+
+Totalizando 8855 linhas para a orelha esquerda e 8728 linhas para a orelha direita.
+
+Observou-se que, com as classes desbalanceadas, os modelos performaram mal, mesmo com a escolha de estruturas de árvore, que supostamente são mais flexíveis a esse tipo de situação naturalmente. Também deixamos de usar a acurácia como métrica de comparação entre os modelos e usamos o F1 Score.
+
+Além de modelos de árvore (que permitem visualização gráfica das relações entre variáveis), também treinamos um modelo SVC (que se assemelha a um SVM, mas se ajusta melhor a dados desbalanceados) e a regressão logística, cujos coeficientes angulares trariam medidas interessantes de relevância das variáveis para a predição das classes. Dividimos o conjunto de dados em treino, teste e validação aleatóriamente, sendo a divisão de 80%, 10% e 10%, respectivamente. O resultado do F1 score para cada ajuste foi:
+
+| Modelo                   | Orelha    |  F1 Score |
+|--------------------------|-----------|-----------|
+| Decision Tree Classifier | Esquerda  |    72,67% |
+| Random Forest            | Esquerda  |    75,68% |
+| SVC                      | Esquerda  |    67,35% |
+| Regressão Logística      | Esquerda  |    67,51% |
+| Decision Tree Classifier | Direita   |    75,74% |
+| Random Forest            | Direita   |    77,11% |
+| SVC                      | Direita   |    67,56% |
+| Regressão Logística      | Direita   |    67,38% |
+
+Vislumbrando ter alguma luz sobre a pergunta principal do estudo, a qual relacionava a perda auditiva com a exposição ao ruído, utilizamos o questionário respondido pelos pacientes nas perguntas relacionadas a ruído não laboral, entre elas: “Ears ringing, roaring, buzzing past year”, “Loud noise exposure for 5 hours?”, “Ever had non-job exposure to loud noise?”, “How long exposed to very loud noise”, “Had off-work exposure to loud noise?”. A correlação entre estas variáveis indica que a correlação entre as variáveis de nível exposição a ruídos e demografia não são muito fortes, o que pode explicar o ajuste ruim dos modelos.
+
+![Orelha direita - Correlação entre as variáveis utilizadas](images/right_variable_corr.png)
+
+![Orelha esquerda - Correlação entre as variáveis utilizadas](images/left_variable_corr.png)
+
+Observamos que referente a questão “Ears ringing, roaring, buzzing past year”,  a maioria das pessoas que têm audição normal respondeu que não teve zumbido e a % de pessoas que têm perda e falaram que tem zumbido é maior do que as pessoas que têm perda e falaram que não. 
+
+![Orelha direita - Zumbido](images/right_ringing.png)
+
+![Orelha esquerda - Zumbido](images/left_ringing.png)
+
+Na resposta para a questão “Had off-work exposure to loud noise?” , vemos que principalmente que pessoas com perdas leves relataram estar expostas a ruído em relação às com perda leve e não estavam.
+
+![Orelha direita - Off Work](images/right_exposure_off_work.png)
+
+![Orelha esquerda - Off Work](images/left_exposure_off_work.png)
+
+Para “How long exposed to very loud noise”, aqui parece que há uma tendência de até as 7 horas de exposição, conforme aumenta o tempo de exposição, aumenta o número de pessoas com perdas auditivas (exceto para 8 horas de exposição).
+
+![Orelha direita - Exposição](images/right_exposure_duration.png)
+
+
+|Orelha  esquerda - Classificação de perda |Contagem|	Média	|Desvio padrão	|Mínimo	|25%	|50%	|75%	|Máximo|
+|--------------|---|---|---|---|---|---|---|---|	
+|Leve |	144.0	|5.91|	8.01|	1.0|	4.00|	6.0|	7.00|	99.0|
+|Moderada|	43.0	|5.65	|1.69|	2.0	|4.50	|7.0|	7.00	|7.0|
+|Moderadamente severa|	11.0|	6.91|	0.30	|6.0	|7.00|	7.0	|7.00	|7.0|
+|Normal	|506.0|	4.27|	1.93	|1.0	|3.00	|4.0|	6.00	|8.0|
+|Perda auditiva completa|	4.0|	4.5	|2.08|	2.0|	3.50	|4.5|	5.50|	7.0|
+|Profunda	|2.0	|5.5|	0.71	|5.0|	5.25	|5.5	|5.75|	6.0|
+|Severa |	1.0	| 7.0 |	NaN |	7.0 |	7.00 |	7.0 |	7.00	|7.0 |
+
+![Orelha esquerda - Exposição](images/left_exposure_duration.png)
+
+|Orelha  direita - Classificação de perda |Contagem|	Média	|Desvio padrão	|Mínimo	|25%	|50%	|75%	|Máximo|
+|--------------|---|---|---|---|---|---|---|---|	
+|Leve	|139.0|	5.96|	8.14	|1.0|	4.00|	6.0	|7.00|	99.0|
+|Moderada	|34.0	|5.5|	1.67	|3.0	|3.25|	6.0|	7.00	|7.0|
+|Moderadamente severa|	17.0	|5.82	|1.18|	4.0	|5.00	|6.0	|7.00	|7.0|
+|Normal	|523.0	|4.23	|1.95|	1.0|	3.00	|4.0|	6.00|	8.0|
+|Perda auditiva completa	|3.0	|4.67	|2.52	|2.0|	3.50	|5.0	|6.00	|7.0|
+|Profunda	|2.0|	4.5	|0.71|	4.0	|4.25|	4.5	|4.75|	5.0|
+|Severa	|1.0	|3.	|NaN|	3.0	|3.00	|3.0|	3.00	|3.0|
+
+É importante realizar a ressalva que precisamos fazer é que os gráficos estão desta forma apresentando maior % de audição normal poruqe é esse resultado que temos no banco de dados (maior quantidade de pessoas que apresentaram audição normal).
+
+Não é possível afirmar que as pessoas perderam a capacidade auditiva por causa da exposição de ruído. A perda auditiva tem inúmeras etiologias e até somatória de fatores e não conseguimos fazer uma análise específica e controlando todas as variáveis para garantir o resultado. 
+
+Ao fazer um panorama geral do trabalho, as principais dificuldades observadas foram quanto à quantidade de dados faltantes e a maneira de coleta e “plotagem” deles, que diferiam de um ano para o outro. Isso dificultou a realização de determinadas análises e a possibilidade de criar modelos para responder a alguns de nossos questionamentos. 
+
+É importante ressaltar que a todo momento foi necessário revisitar os dados, revisitar o dicionário da base de dados para que conseguíssimos elaborar ideias e soluções. O pipeline do KDD se tornou, muitas vezes, um ciclo, em que pre- processávamos os dados, tentávmos analisar, retornávamos para o pre processamento e assim sucessivamente. 
+
+
+# Trabalhos futuros
+
+A modelagem dos dados sofreu com o desequilíbrio entre as classes. Assim sendo, uma hipótese para melhoria desta etapa é tentar técnicas de equilíbrio das amostras - com as ressalvas mencionadas em relação a upsampling e undersampling.
+Outra possibilidade de análise seria utilizar alguma técnica de análise de causalidade para corroborar ou refutar as hipóteses de causa e efeito entre exposição a ruídos e perda auditiva.
 
 # Ferramentas
 
@@ -169,6 +297,7 @@ Uma análise utilizando os dados demográficos ainda será realizada para verifi
 | NumPy | Biblioteca do Python orientada a operação de vetores e matrizes multidimensionais |
 | Pandas | Biblioteca do Python orientada a manipulação e análise de dados |
 | Matplotlib | Biblioteca do Python para criação de gráficos e visualizações de dados |
+| Scikit-learn | Biblioteca do Python para desenvolvimento de modelos |
 | Jupyter Notebook | Documento virtual que permite execução de rotinas usuais de programação e documentação de todo o processo de produção do código |
 | Google Colab | Ambiente de notebooks Jupyter que não requer configuração e é executado na nuvem |
 
