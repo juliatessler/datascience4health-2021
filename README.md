@@ -41,6 +41,8 @@ No entanto, sabe-se que a etiologia da perda auditiva pode apresentar diversos f
 
 ## Slides da Proposta
 
+[Aqui](https://drive.google.com/file/d/1nxkBIBAIzbgwBHKyyydw2xT_nSwXvdha/view?usp=sharing) encontram-se os slides da apresentação da proposta.
+
 ## Slides da Apresentação Final
 
 [Aqui](https://drive.google.com/file/d/1BxSrqAB4XYSeg2TmF7tQ0BQEru1Nl33k/view?usp=sharing) encontram-se os slides da apresentação final.
