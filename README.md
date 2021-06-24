@@ -33,9 +33,9 @@ No entanto, sabe-se que a etiologia da perda auditiva pode apresentar diversos f
 
 ## Vídeo da Apresentação Final
 
-[Aqui](https://youtu.be/Usq-nvxmtDM) encontra-se o vídeo de apresentação final do projeto.
+[Aqui](https://drive.google.com/file/d/1n__Syw5rTAM-yrtrGC59hz0crt-FN31t/view?usp=sharing) encontra-se o vídeo de apresentação final do projeto.
 
-[![O Aumento na Prevalência de Perda Auditiva: Quais os Motivos?](images/slide_final.png)](https://youtu.be/Usq-nvxmtDM)
+[![O Aumento na Prevalência de Perda Auditiva: Quais os Motivos?](images/slide_final.png)](https://drive.google.com/file/d/1n__Syw5rTAM-yrtrGC59hz0crt-FN31t/view?usp=sharing)
 
 # Slides do Projeto
 
