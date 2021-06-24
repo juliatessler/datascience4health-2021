@@ -226,7 +226,7 @@ Para cada orelha, obtivemos a seguinte quantidade de observações de cada class
 |              | Severa                  | 35         |
 |              | Profunda                | 14         |
 
-Totalizando 8855 linhas para a orelha esquerda e 8728 linhas para a orelha direita.
+Totalizando 8855 linhas para a orelha esquerda e 8728 linhas para a orelha direita. Outras estratégias de trabalho com dados desbalanceados como o _upsampling_ (substituir os valores faltantes por outros estimados) ou _undersampling_ (reamostrar as classes dominantes de forma a chegar a tamanho semelhante das menores) distorceriam muito os dados. No caso da primeira, não teríamos muita confiança para as classes com menos dados e, na segunda, restariam poucos dados em comparação com o todo.
 
 Observou-se que, com as classes desbalanceadas, os modelos performaram mal, mesmo com a escolha de estruturas de árvore, que supostamente são mais flexíveis a esse tipo de situação naturalmente. Também deixamos de usar a acurácia como métrica de comparação entre os modelos e usamos o F1 Score.
 
@@ -299,7 +299,8 @@ Ao fazer um panorama geral do trabalho, as principais dificuldades observadas fo
 
 # Trabalhos futuros
 
-A modelagem dos dados sofreu com o desequilíbrio entre as classes. Assim sendo, uma hipótese para melhoria desta etapa é tentar técnicas de equilíbrio das amostras - com as ressalvas mencionadas em relação a upsampling e undersampling.
+A modelagem dos dados sofreu com o desequilíbrio entre as classes. Assim sendo, uma hipótese para melhoria desta etapa é tentar técnicas de equilíbrio das amostras - com as ressalvas mencionadas em relação a _upsampling_ e _undersampling_.
+
 Outra possibilidade de análise seria utilizar alguma técnica de análise de causalidade para corroborar ou refutar as hipóteses de causa e efeito entre exposição a ruídos e perda auditiva.
 
 # Ferramentas
